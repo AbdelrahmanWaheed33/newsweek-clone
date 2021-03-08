@@ -1,40 +1,41 @@
 .footer {
-    /* background-color: aquamarine; */
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
+  /* background-color: aquamarine; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  /* Set the fixed height of the footer here */
+  height: 60px;
 }
 
 .brand {
-    height: 50px;
-    width: 190px;
-    fill: #f72210;
+  height: 50px;
+  width: 190px;
+  fill: #f72210;
 }
 
 .copyright {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .footer-up {
-    display: inline;
+  display: inline;
 }
 
 .footer-links {
-    padding-left: 5px;
-    border-left: 1px solid rgb(161, 158, 158);
+  padding-left: 5px;
+  border-left: 1px solid rgb(161, 158, 158);
 }
 
 .logo-footer {
-    border-bottom: 1px solid rgb(161, 158, 158);
+  border-bottom: 1px solid rgb(161, 158, 158);
 }
 
 .icons i {
-    font-size: 2em;
-    color: grey;
+  font-size: 2em;
+  color: grey;
 }
 
 .fab {
-    margin-left: 15px;
+  margin-left: 15px;
 }
