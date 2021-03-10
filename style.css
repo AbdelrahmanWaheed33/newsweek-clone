@@ -18,17 +18,24 @@ a:hover {
   color: #f72210;
 }
 
-.header-top {
-  background-color: #f72210;
-  font-family: "Roboto Condensed", sans-serif;
+.bg-red {
+  background-color: #f72210 !important;
 }
 
 .header-date {
   font-size: 16px;
 }
 
-.subscribe-btn {
-  background-color: #ffe400;
+.bg-bright-yellow {
+  background-color: #ffe400 !important;
+}
+
+.text-lighter-grey {
+  color: #666;
+}
+
+.bg-none {
+  background-color: transparent !important;
 }
 
 .subscribe-btn::after {
@@ -42,9 +49,16 @@ a:hover {
   border-right: solid 2px;
 }
 
-.header-bottom {
+.text-roboto {
   font-family: "Roboto Condensed", sans-serif;
-  white-space: nowrap;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.content-container {
+  display: contents;
 }
 
 .header-bottom::after {
@@ -94,42 +108,25 @@ a:hover {
   color: #333;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-}
-
-.brand-footer {
-  height: 50px;
-  width: 190px;
-  fill: #f72210;
-}
-
-.copyright {
-  padding-top: 20px;
-}
-
 .footer-up {
   display: inline;
 }
 
 .footer-links {
-  padding-left: 5px;
-  border-left: 1px solid rgb(161, 158, 158);
-}
-
-.logo-footer {
-  border-bottom: 1px solid rgb(161, 158, 158);
+  /* padding-left: 5px;
+  border-left: 1px solid rgb(161, 158, 158); */
 }
 
 .icons i {
-  font-size: 2em;
-  color: grey;
+  font-size: 1.75em;
 }
 
 .fab {
   margin-left: 15px;
+}
+
+@media only screen and (max-width: 576px) {
+  .text-small {
+    font-size: 80%;
+  }
 }
